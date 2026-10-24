@@ -6,7 +6,7 @@
 import axios from 'axios'
 
 const http = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://data-sentinel.onrender.com/api',
   timeout: 30_000,
 })
 
