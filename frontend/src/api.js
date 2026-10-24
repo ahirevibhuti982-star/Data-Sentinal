@@ -7,7 +7,7 @@ import axios from 'axios'
 
 const http = axios.create({
   baseURL: 'https://data-sentinel.onrender.com/api',
-  timeout: 120_000,,
+  timeout: 120_000,
 })
 
 export async function uploadScan(file) {
